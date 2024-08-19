@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style>
+h1
+{
+color:red;
+}
+label
+{
+color:#996600;
+}
+form
+{
+border:2px solid;
+width:400px;
+height:280px;
+background:#ffffcc;
+border-radius:10px;
+}
+#id1:hover
+{
+	width: 15em;
+    height: 20px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: text;
+}
+#id2:hover
+{
+	width: 8em;
+    height: 25px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+  </style>
+ </head>
+ <body>
+  <center>
+  <form method=post action=main2>
+  <h1><em>PAYMENT TYPE</EM></h1>
+  <input type="radio"value="creditcard"name="action"/><label>Credit card </label><br><br>
+ <input type="radio"value="debitcard"name="action"/> <label>Debit card</label><br><br><br>
+ <input id="id2"type="submit"/>
+</form>
+  </center>
+ </body>
+</html>

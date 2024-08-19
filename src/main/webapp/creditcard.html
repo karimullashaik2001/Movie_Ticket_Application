@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style>
+h1
+{
+color:red;
+}
+label
+{
+color:#996600;
+}
+form
+{
+border:2px solid;
+width:400px;
+height:280px;
+background:#ffffcc;
+border-radius:10px;
+}
+#id1:hover
+{
+	width: 15em;
+    height: 20px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: text;
+}
+#id2:hover
+{
+	width: 8em;
+    height: 25px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+input
+{
+width:120px;
+}
+  </style>
+ </head>
+ <body>
+  <center>
+  <form method=post action=confirm>
+  <h1><em>CREDIT CARD</EM></h1>
+  <label>Card Number :&nbsp;&nbsp;&nbsp;</label><input type="text" minlength="16"maxlength="16"required/><br><br>
+  <label>Valid Thrw  :&nbsp;&nbsp;&nbsp;</label><input type="date"/> <br><br>
+  <label>CVV  :&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" minlength="4" maxlength="4"/><br><br><br>
+  <input id="id2"type="submit"value="PAY"/>
+  </form>
+  </center>
+  </body>
+  </html>
